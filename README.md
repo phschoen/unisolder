@@ -28,23 +28,21 @@ Tested so far with:
 - ERSA RT80 (series PTC/heater resistance)
 - various chinese cheap irons with separate TC
 
-##Update (4 April 2017): 
+## Update (4 April 2017): 
 The PC Software is now entirely in C#, the front end is rewritten. Now you can program only the bootloader, and then use the software for firmware updates using the USB connection. The PC software also does not crash anymore when device is unplugged and plugged in the USB or turned on/off, and automatically switches to bootloader and back when uploading new firmware. Also, a legend with checkboxes is added for every data that is displayed on the graph, so you can switch it on or off. There is still pretty much work to be done on it, but at least it is much more functional now.
 Added to the firmware are Pace TD100 Black and Weller WMRT profiles, some work is done on several other places. Now the firmware handles better some irons, where there was initial overshoot when heating for the first time or changing the target temperature.
 
 Some movies:
-JBC C245: https://www.youtube.com/watch?v=oTdQB4ywDOA
-JBC C210: https://www.youtube.com/watch?v=iyz-EDf-JaY
-T12, JBC C210, JBC Microtweezers: https://www.youtube.com/watch?v=-f0KSU0PJzc&t=70s
-Chinese T12: https://www.youtube.com/watch?v=u588sh-4thg
-Weller WSP80: https://www.youtube.com/watch?v=gd_8w7l8_Bo
-Weller WMRT: https://www.youtube.com/watch?v=eHNJuQEw6XU
+ - [JBC C245](https://www.youtube.com/watch?v=oTdQB4ywDOA)
+ - [JBC C210](https://www.youtube.com/watch?v=iyz-EDf-JaY)
+ - [T12, JBC C210, JBC Microtweezers](https://www.youtube.com/watch?v=-f0KSU0PJzc&t=70s)
+ - [Chinese T12](https://www.youtube.com/watch?v=u588sh-4thg)
+ - [Weller WSP80](https://www.youtube.com/watch?v=gd_8w7l8_Bo)
+ - [Weller WMRT](https://www.youtube.com/watch?v=eHNJuQEw6XU)
 
-The content of this is originaly copied thanks to sparkybg
-    
-    http://dangerousprototypes.com/forum/viewtopic.php?t=7218
+The content of this is originaly copied thanks to sparkybg from [dangerousprototypes.com](http://dangerousprototypes.com/forum/viewtopic.php?t=7218)
 
-##Connections to different tips/irons:
+## Connections to different tips/irons:
 
 1. HAKKO T12:
 - Outer shell, and heater negative (middle) terminal connected together to Vout1- and EARTH
