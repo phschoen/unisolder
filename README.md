@@ -1,6 +1,8 @@
 # unisolder
 
-The intention was to build the most universal soldering controller I can think of. It can drive any low voltage (upto 24V) iron with thermocouple or resistive sensor, in series with the heater, or separate.
+The intention was to build the most universal soldering controller I can think of.
+It can drive any low voltage (upto 24V) iron with thermocouple or resistive sensor,
+in series with the heater, or separate.
 
 Here is a short list of features:
 - power: 9-28V, AC or DC
@@ -29,8 +31,15 @@ Tested so far with:
 - various chinese cheap irons with separate TC
 
 ## Update (4 April 2017): 
-The PC Software is now entirely in C#, the front end is rewritten. Now you can program only the bootloader, and then use the software for firmware updates using the USB connection. The PC software also does not crash anymore when device is unplugged and plugged in the USB or turned on/off, and automatically switches to bootloader and back when uploading new firmware. Also, a legend with checkboxes is added for every data that is displayed on the graph, so you can switch it on or off. There is still pretty much work to be done on it, but at least it is much more functional now.
-Added to the firmware are Pace TD100 Black and Weller WMRT profiles, some work is done on several other places. Now the firmware handles better some irons, where there was initial overshoot when heating for the first time or changing the target temperature.
+The PC Software is now entirely in C#, the front end is rewritten. Now you can program only the bootloader,
+and then use the software for firmware updates using the USB connection. The PC software also does not crash
+anymore when device is unplugged and plugged in the USB or turned on/off, and automatically switches to
+bootloader and back when uploading new firmware. Also, a legend with checkboxes is added for every data
+that is displayed on the graph, so you can switch it on or off. There is still pretty much work to be done on it,
+but at least it is much more functional now.
+Added to the firmware are Pace TD100 Black and Weller WMRT profiles, some work is done on several other places.
+Now the firmware handles better some irons, where there was initial overshoot when heating for the first time
+or changing the target temperature.
 
 Some movies:
  - [JBC C245](https://www.youtube.com/watch?v=oTdQB4ywDOA)
@@ -92,3 +101,4 @@ The content of this is originaly copied thanks to sparkybg from [dangerousprotot
 - 300ohm between ID and Vout1-
 - 110ohm between ID and Vout2-
 
+see also https://github.com/5N44P/unisolder-notes
