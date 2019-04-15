@@ -1,5 +1,7 @@
 # unisolder
 
+![unisolder52](https://raw.githubusercontent.com/phschoen/unisolder/master/pics/unisolder52.jpg "unisolder52")
+
 The intention was to build the most universal soldering controller I can think of.
 It can drive any low voltage (upto 24V) iron with thermocouple or resistive sensor,
 in series with the heater, or separate.
